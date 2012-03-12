@@ -1,0 +1,57 @@
+stdlib:
+
+unit SI::kg
+unit SI::m
+unit SI::s
+
+unit SI::N = kg*m*s^-2
+
+if m = 3 feet
+	//dothis
+else
+	//dothat
+dfdf
+
+int i
+
+for  i := 0, i < 20, i++
+	//dostuff
+
+while i < 20
+	i++
+
+class MyClass
+	int length
+	double radians
+	double calcDegrees(double, double) is N
+	operator =(n is N)
+	//string toString(string input)
+ 
+
+Myclass->toString("Myclass is of type: ")
+
+double MyClass::calcDegrees(double x is m, double y is kg) is N
+	return x*y N		
+
+using units SI
+@using namespace std;
+@int i = 4;
+
+
+
+
+
+double variableA := 5N
+int variableA := 10
+double hej := 5N
+
+string hej2 := "hej" + "hej"
+
+@#include <iostream>
+@#include <stdlib>
+@cout << "hej";
+cout << variableA
+
+===============
+
+
