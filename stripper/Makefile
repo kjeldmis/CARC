@@ -1,6 +1,6 @@
 OBJS = stripper.o
 
-CFLAGS = -g
+CFLAGS = -g -Wall
 LDFLAGS = 
 
 stripper : $(OBJS)
@@ -8,3 +8,6 @@ stripper : $(OBJS)
 
 %.o : %.cpp
 	g++ -c $< $(CFLAGS)
+
+clean : 
+	rm stripper.o stripper

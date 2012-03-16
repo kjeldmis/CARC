@@ -1,0 +1,15 @@
+
+void donothing()
+    return
+
+int method1()
+    int a = 2
+    return a
+
+int method2(int n)
+    return n
+
+int main()
+    donothing()
+    int result = method1() + method2(2)
+    return 0
