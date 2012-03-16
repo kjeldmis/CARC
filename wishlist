@@ -1,0 +1,25 @@
+Feature wishlist
+
+Lasse 14/3/2012
+"complex" type til komplekse tal
+"vector" og "matrix" typer
+naturlig måde at håndtere symmetriske/hermitiske matricer
+strict aliasing for pointers (http://stackoverflow.com/questions/146159/is-fortran-faster-than-c)
+FORTRAN/C/C++-lignende call convention for interlanguage calls
+Compilation to both C++ and FORTRAN?
+MATLAB-agtig A\b notation
+
+LAPACK wrapper i standard library med:
+    - "dsygv" og resten som wrappede funktioner
+    - funktioner der tager både nøgne arrays og matricer
+    - funktioner med mere sigende navne end "dsygv" etc;
+    - INGEN performance loss over FORTRAN LAPACK
+
+Lasse 15/3/2012
+To retninger vi kan tage sproget, stort set performance vs. features/intuitive structures
+    - new and delete vs. garbage collectede strukturer
+    - Python/C#-style "lambda" vs. rå metoder
+    - Haskell-lignende lister vs. dynamiske C++ lister
+    - Dynamiske lister vs. flade arrays
+
+
